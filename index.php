@@ -1,7 +1,11 @@
 <?php
 
-echo "Hello, everyone my name is Jailene Soto!"; 
+$obj = new main; 
+class main {
+	public function __construct() {
+		echo 'hello world';
+	}
 
-echo "This is a practice page, to make sure my php works"; 
+}
 
 ?>
